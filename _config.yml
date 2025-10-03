@@ -1,2 +1,13 @@
-url: "https://paulogms.github.io"
-baseurl: "/segment.github.io"
+title: "Segment Test Site"
+description: "Just testing Jekyll on GitHub Pages"
+url: "https://paulogms.github.io"   # your GitHub Pages root
+baseurl: "/segment.github.io"       # the repo name, required for project sites
+
+# Theme (you can swap "jekyll-theme-minimal" for another Pages-supported theme)
+theme: jekyll-theme-minimal
+
+# Optional: markdown + plugins GitHub Pages supports by default
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
